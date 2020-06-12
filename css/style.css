@@ -15,3 +15,13 @@
 .brand-icon {
     width: 100px;
 }
+
+.container-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.article-img {
+    display: inline;
+}
