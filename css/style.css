@@ -1,6 +1,35 @@
 .bg-image {
     background: url('../img/background.jpg');
+    
 }
+ /*Imagem do fundo das paginas opção "sobre" */
+.bg-imageRick{  
+    flex-wrap: wrap ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background : url('../img/RickandMorty.jpg')
+
+}
+
+.bg-imageBojack{  
+    flex-wrap: wrap ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background : url('../img/Bojack.jpg')
+
+}
+
+.bg-imageThewalking{  
+    flex-wrap: wrap ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background : url('../img/the-walking-dead.png')
+
+}
+
 
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.5);
@@ -16,7 +45,8 @@
     width: 100px;
 }
 
-.container-img {
+.container-img { 
+    flex-wrap: wrap ;
     display: flex;
     flex-direction: row;
     justify-content: center;
