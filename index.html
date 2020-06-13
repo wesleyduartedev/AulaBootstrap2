@@ -1,139 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade de Framework - Arbyte</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade de Framework - Arbyte</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre</a>
-            </li>
-            
-        </div>
+  <div class="back-all">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+      <a class="navbar-brand" href="#">
+        <img src="img/netflix.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Ínicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Séries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Filmes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mais Recentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Minha Lista</a>
+          </li>
+        </ul>
+
+        <form class="form-inline mr-2">
+          <input class="form-control mr-2" type="search" placeholder="Buscar...">
+          <button class="btn btn-dark" type="submit">Pesquisar</button>
+        </form>
+
+      </div>
     </nav>
 
     <div class="bg-image mb-5">
-        <div class="jumbotron jumbotron-fluid text-light">
-            <div class="container">
-                <h1 class="display-4">Filmes e séries ArByte</h1>
-                <p class="lead">Filmes é séries preferidas.</p>
-            </div>
+      <div class="jumbotron jumbotron-fluid text-light">
+        <div class="container ">
+          <h1 class="display-4">Filmes e Séries ArByte</h1>
+          <p class="lead">Filmes e Séries Preferidas</p>
         </div>
+      </div>
     </div>
-      
-<div  class="container-img">
 
+    <div class="container-img">
 
-        <div class="card" style="width: 18rem;">
-            <img src="img/breaking-bad.jpg" class="card-img-top" alt="BreakingBad" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Sobre mais</a>
-            </div>
-          </div>
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUjsKDiaKwLmrV662pwmVKEtRmbJI-s8M9ojCqr2QEdnPUJPX86RP-n9IGXxGcaHWkTf-cwz5e4kBLN3jYLM7HuBfYA.webp?r=01d"
+          class="card-img-top" alt="BreakingBad" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title">
+            <img alt="Breaking Bad" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABSVEM87ApeRy215ZPfUVUQnrkBT8hXmr4FL2IkYlPi_M-DSUXKmS96odrp1jriObllw-A0nuMq8IRn20SzkprFgym5w6WzJZ1A.webp?r=c0d">
+          </h5>
+          <p class="card-text">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da
+            família, mudando o destino de todos.</p>
+          <a href="#" class="btn btn-dark">Bora Assistir</a>
+        </div>
+      </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/RickandMorty.jpg" class="card-img-top" alt="RickandMorty" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">Rick and Morty</h5>
-              <p class="card-text">
-                O brilhante, mas embriagado cientista Rick seqüestra seu neto adolescente irritado, Morty, para aventuras selvagens em outros mundos e dimensões alternativas.</p>
-                <a class="btn btn-primary" href="PaginaRickandMorty.html">Sobre mais</a>
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXMoxSG0DOi6gPy7RVNeHZKxKZrnkliV3-EYnjYUE8WjjVrn8KPYXLodcSLsTjuhr-S0YT4T84SC1cQgL7eXDi5TPMw.jpg?r=712"
+          class="card-img-top" alt="RickandMorty" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title">
+            <img alt="Rick and Morty" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABRGfUS5ps9MevvBN4c10Lfr4OcN9sfYB0AC8YSaxl1HJWQAGELbHkWEqVYOE6HcKKxSgjeS2O49Wp_ouEZxsrF9B8QL2uc3Jwg.webp?r=92b">
+          </h5>
+          <p class="card-text">O brilhante cientista beberrão Rick sequestra Morty, seu neto aborrescente, para viver
+            loucuras em outros mundos e dimensões alternativas.</p>
+          <a class="btn btn-dark" href="PaginaRickandMorty.html">Bora Assistir</a>
 
-            </div>
-          </div>
+        </div>
+      </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/the-walking-dead.png" class="card-img-top" alt="the-walking-dead" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">The walking dead</h5>
-              <p class="card-text">Em The Walking Dead, um apocalipse provoca uma infestação de zumbis 
-                na cidade de Cynthiana, em Kentucky, 
-                nos Estados Unidos, e o oficial de polícia Rick Grimes 
-                (Andrew Lincoln) descobre que os mortos-vivos 
-                estão se propagando progressivamente. </p>
-                <a class="btn btn-primary" href="PaginaThewalking.html">Sobre mais</a>
-            </div>
-          </div>
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaL1rxpHGEITZqAVFLGP2SmfuYnFcEzhyeilJoegsYub6Tt4ZCLDYByhwFb7yTLhrn-XKiNO6r0uy29-Ztu7X5hrfoAePfUvueYsYbIhGJPwATsO0KCVRynxqfuE3zrHAA.jpg?r=0a8"
+          class="card-img-top" alt="the-walking-dead" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title"><img alt="The Walking Dead" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABZd98LMTpxyE9jOZqWX7jV1Eul2pzgRFEaNyQjCmAuDSqSifhQvtawWljFl0zdq7wHgVo15QECcCD-muE4QtPMIou26tBfkytQ.webp?r=b3d">
+          </h5>
+          <p class="card-text">Zumbis dominam o mundo dos vivos, e os sobreviventes unem forças para manter viva a raça
+            humana.</p>
+          <a class="btn btn-dark" href="PaginaThewalking.html">Bora Assistir</a>
+        </div>
+      </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/Bojack.jpg" class="card-img-top" alt="Bojack" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">Bojack horseman</h5>
-              <p class="card-text">Conheça o  cavalo mais amado da TV dos anos 90... vinte anos depois! Ranzinza 
-                  e com um coração de... 
-                  não exatamente ouro... mas parecido. Latão?.</p>
-                  <a class="btn btn-primary" href="PaginaBojack.html">Sobre mais</a>
-            
-            </div>
-          </div>
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRsjPkQizQKCoZxp0wz-ou5xzoj2bv7kK2q8kc2tjZtaBPO1Elycmw3ZCUnnI7kJEiT8bNYQ0rldY7asqqvd_yIQlPFjl434rDucM2Bh6VTPrfvYnpnWPqnrut-Z.jpg?r=e20"
+          class="card-img-top" alt="Bojack" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title"><img alt="BoJack Horseman" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABQo1iLbbik36uaV8hyyy53-yjFbN_Lm9shkNXxZFBee61ZTWH9R-oQouqFgFkkMAY7R9Ft1v94UQSMXlBWSBZILkwZ94FhFg6cRBEj_tB6vp_SvSYb0raisVBQr1IG1vEbIMyq14chgo86GxgbfupF9jBUu51i4qXLIsTflnj90.webp?r=720">
+          </h5>
+          <p class="card-text">Conheça o cavalo mais amado da TV dos anos 90... vinte anos depois! Ranzinza e com um
+            coração de... não exatamente ouro... mas parecido. Latão?</p>
+          <a class="btn btn-dark" href="PaginaBojack.html">Bora Assistir</a>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/breaking-bad.jpg" class="card-img-top" alt="BreakingBad" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Sobre mais</a>
-            </div>
-          </div>
+        </div>
+      </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/breaking-bad.jpg" class="card-img-top" alt="BreakingBad" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Sobre mais</a>
-            </div>
-          </div>
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXVszf8__CJbhQZBBZ3SEB4U-Bq9SNfUxIdlANEgWVdJdCdpXpuUwrRasL0PIULbbnnf9jsAjUO1_mc06BZFeWVm2ScR_fk6CSfKydnE5Wn1rylpij6W2Yltf7UJ.jpg?r=927"
+          class="card-img-top" alt="History False Assasin" class="article-img">
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/breaking-bad.jpg" class="card-img-top" alt="BreakingBad" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Sobre mais</a>
-            </div>
-          </div>
+        <div class="card-body">
+          <h5 class="card-title"><img alt="A História Real de um Assassino Falso" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABTHK3ScC6XSCpG85auxPf3OjqDqgnljjRl6ZRdzVAoWI-88Vlp8YrezvTQy_BV_pVO-ekl76T8SnGPXBrVDz7lXxDTNuQ_t_9J97SmjLVN-KmG5qx9xx5i4PZV1GOyGCcw958yOIZewGKaVjy-pVdzwRZcuhiJ-UPQ0rfboVcUw.webp?r=88f">
+          </h5>
+          <p class="card-text">Após seu romance fictício ser publicado como um livro de memórias, um escritor é
+            arrastado para uma perigosa conspiração política na Venezuela.</p>
+          <a href="#" class="btn btn-dark">Bora Assistir</a>
+        </div>
+      </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/breaking-bad.jpg" class="card-img-top" alt="BreakingBad" class="article-img">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Sobre mais</a>
-            </div>
-          </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQCdPbVjMsk5vd73nfgDFfEav7YQ_jo86kW1Lzvc_UrsFta8EkFOLGNnqiq5Egk9UX5HToAowYds2W__GvP8sft1OGA.webp?r=4be
+          " class="card-img-top" alt="BreakingBad" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title"><img alt="Hancock" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABcaLtd7Td4BgpRFDqhlxf2Wdlu3FBp81YL79tTC3_IA7Ccp7tKHalmlY4n7ufLuekCEdZEWGazWeqjTwkEQJ2fSSCP0y8XkUww.webp?r=a92">
+          </h5>
+          <p class="card-text">Will Smith é Hancock, um super-herói falido forçado a contratar um especialista em
+            relações públicas para ajudá-lo a refazer sua imagem.</p>
+          <a href="#" class="btn btn-dark">Bora Assistir</a>
+        </div>
+      </div>
 
-</div>
-    
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTypKzlhovwac3g7pWLFlZDw1te9kZTT7Bbkj8QCtsZooMV7PA2Kdrfoz0pQE5Vtjb24FAh3xrAuQcHDIIzM3hltR8XeaGGjEOEJURaJuV28Z5QPDB0MddxrVG_Z.jpg?r=732"
+          class="card-img-top" alt="BreakingBad" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title"><img alt="Mistério no Mediterrâneo" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABV10Dwh2g3HXejCuOe25uQkojRCNnXQ4rXps6sN5BEDNY30MILUzExYl6Sc-KlSRfaOI7oIsmgVNiYmBk1-OHtKk6BQgijkIfj8Vq34BcRCSgfLx8FrQLR6pwHbKoG8bqs9jqbs5bvW0Ij4EpVdnCN0lcRoD8HzKeFLN3i35WOw.webp?r=ff7">
+          </h5>
+          <p class="card-text">Numa aguardada viagem à Europa, um policial de Nova York e sua esposa cabeleireira tentam
+            solucionar um caso de assassinato a bordo do iate de um bilionário.</p>
+          <a href="#" class="btn btn-dark">Bora Assistir</a>
+        </div>
+      </div>
 
-    <footer class="container-fluid bg-dark text-light p-5 mt-5">
+      <div class="card" style="width: 18rem;">
+        <img
+          src="
+          https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcC9h8HIhcVbAM36uJapBfYvIL5KpLdow7MkC2aqpaDEVg0VCxyuIGVE0Q77hbjEaoyX8eS0m6vfWfi7QXfmHGBoKA4.webp?r=62b"
+          class="card-img-top" alt="BreakingBad" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title"><img alt="Uma Casa de Pernas pro Ar" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABUphyKHKTKwGA9GL-D1Z0tExfqQQmwc5MBTUb2enb9naTRYpFPxLiCAggV-Wzr3nyvs046pD0WBmQ-jNy1Fm5vVOQwhNlPBKjg.webp?r=303">
+          </h5>
+          <p class="card-text">Um casal recém-casado se muda para uma casa que precisa de reforma, mas sua vida feliz
+            juntos é ameaçada por um excêntrico mestre de obras.</p>
+          <a href="#" class="btn btn-dark">Bora Assistir</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQIElRvA4d6Oyr4rCtXLUkuFp-LD-SelF9MVMHPH0ALy29bGtrcdBgJawEqkwnvenDMoXy7mVQNf9bRGbjV2cNI5BL_FS72S_k2VT5HzFtKIY-QLR1wgA67SV_ib.jpg?r=1ca"
+          class="card-img-top" alt="BreakingBad" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title"><img alt="Marlon" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABW74317Kd875U8Jc9qvOtG58DbSjg6n0Jly8r7n62ZzuiaePR5GRFjcZApdVYLKnrnj_eAmf2zWY6KmUVA__rs46b4oMAdvvoqXCnfgd9_3zVLLtarcgi1zTXKWkZaYA9ZEsAj7r2tBIWo3kOKLPxCIyc0loH237oF7m9QzhCSE.webp?r=c7e">
+          </h5>
+          <p class="card-text">Ashley tenta convencer Marlon a esquecer o passado quando descobre que ele ainda tem um
+            armário lotado de lembranças inúteis do relacionamento entre os dois.</p>
+          <a href="#" class="btn btn-dark">Bora Assistir</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWrvw_cvibcdg3mUkyQbxNxtr9x9RTVaFtsVpc3Umh3Hkv6hwu6G3pFZjD0hnEB_CDa29NHbU10c6sx7ONIk50zY5iQ.webp?r=205"
+          class="card-img-top" alt="BreakingBad" class="article-img">
+        <div class="card-body">
+          <h5 class="card-title"><img alt="O Durão" class="logo"
+              src="https://occ-0-1567-185.1.nflxso.net/dnm/api/v6/H8D6qtacWfxpwORI6dw3sYdASQc/AAAABQsO5Fb5tWTFwfuHuv5Sm_b84rW-GeUlyC588ku4KdJum-GsJBf4mE6vWxRNY0uP1dYfIsaIUf5Lt0p4vBip8a8YKPezkLStzQ.webp?r=713">
+          </h5>
+          <p class="card-text">Condenado a vários anos de prisão, um milionário contrata um homem para prepará-lo para a
+            vida atrás das grades sem saber que ele nunca esteve preso.</p>
+          <a href="#" class="btn btn-dark">Bora Assistir</a>
+        </div>
+      </div>
+
+      <footer class="container-fluid bg-warning text-light p-5 mt-5">
         <div class="d-flex bd-highlight">
             <div class="mr-auto bd-highlight"><p></p></div>
-            <div class=" bd-highlight"><a href="https://www.arbyte.com.br/"><img src="img/logo-footer.png" alt="Logo Arbyte" class="brand-icon ml-auto"></a></div>
+            <div class=" bd-highlight"><a href="#"><img src="img/netflix.png" alt="Logo Arbyte" class="brand-icon ml-auto"></a></div>
         </div>
     </footer>
 
-        
-    
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

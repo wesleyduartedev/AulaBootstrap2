@@ -1,38 +1,13 @@
+.back-all {
+    background-color: #141414;
+}
+
 .bg-image {
-    background: url('../img/background.jpg');
-    
+    background: url(../img/netflix3.jpg);
 }
- /*Imagem do fundo das paginas opção "sobre" */
-.bg-imageRick{  
-    flex-wrap: wrap ;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background : url('../img/RickandMorty.jpg')
-
-}
-
-.bg-imageBojack{  
-    flex-wrap: wrap ;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background : url('../img/Bojack.jpg')
-
-}
-
-.bg-imageThewalking{  
-    flex-wrap: wrap ;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background : url('../img/the-walking-dead.png')
-
-}
-
 
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);  
 }
@@ -55,3 +30,32 @@
 .article-img {
     display: inline;
 }
+
+.card {
+    background-color: #141414;
+    border: none;
+    padding: 10px;
+}
+
+.card-title .logo {
+    height: 3.5vw;
+}
+
+.card-body {
+    background-color: #141414;
+    
+}
+
+.card-text {
+    color: #fff;
+}
+
+.navbar-light {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
+
